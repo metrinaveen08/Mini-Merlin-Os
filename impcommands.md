@@ -1,5 +1,4 @@
 # Imp commands
-❯ merlin write boot.asm
 
 ❯ merlin write boot.asm  // nvim boot.asm
 

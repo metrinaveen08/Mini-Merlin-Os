@@ -1,0 +1,30 @@
+
+~/os-project 16s
+❯ merlin write boot.asm
+/home/xenon/.config/znote/user-preferences.json
+/home/xenon/.config/znote/user-functions.json
+APPIMAGE env is not defined, current application is not an AppImage
+checkForUpdatesAndNotify called, downloadPromise is null
+
+~/os-project 7s
+❯ sudo nano /usr/local/bin/merlin
+
+~/os-project 1m 37s
+❯ merlin write boot.asm
+
+~/os-project 58s
+❯ nasm -f bin boot.asm -o boot.bin
+
+~/os-project
+❯ qemu-system-x86_64 file.bin
+qemu-system-x86_64: file.bin: Could not open 'file.bin': No such file or directory
+
+~/os-project
+❯ qemu-system-x86_64 boot.bin
+WARNING: Image format was not specified for 'boot.bin' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+Gtk-Message: 21:35:04.683: Failed to load module "appmenu-gtk-module"
+
+~/os-project 41s
+❯ 

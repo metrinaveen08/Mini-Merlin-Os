@@ -12,3 +12,6 @@ This Project is made as a part of PBL of course Operating System Course for  BTe
 | 2 | SHAIK ZAHEER ABBAS | 24R11A6690 |
 | 3 | SAHIT KUMAR YADAV | 24R11A6687 |
 | 4 | A.SAI ESHWAR | 25R15A6610|
+
+#### output screens are provided in ~/outputscrsht/
+#### refer to MIT license 
